@@ -1,0 +1,87 @@
+body{
+  background-color: #DFEBE9;
+}
+
+.listItem{
+  position: relative !important;
+}
+
+.active .MuiListItemText-root {
+  color: #1E617A !important;
+}
+
+.active .MuiListItemIcon-root {
+  color: #1E617A !important;
+}
+
+.active{
+  background-color: #DFEBE9 !important;
+  border-radius: 20px 0px 0px 20px !important;
+}
+
+
+.active::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  background-color: #1E617A;
+  top: -30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 #DFEBE9;
+}
+
+
+.active::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  background-color: #1E617A;
+  bottom: -30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 15px -15px 0 #DFEBE9;
+}
+
+
+
+.listBtn .MuiTouchRipple-ripple {
+  width: 90% !important;
+}
+
+
+
+.listBtn:hover::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  background-color: #1E617A;
+  top: -30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 #DFEBE9;
+}
+
+
+
+
+.listBtn:hover::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  background-color: #1E617A;
+  bottom: -30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 15px -15px 0 #DFEBE9;
+}
+
+
+
+
+
+
